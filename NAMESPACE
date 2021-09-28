@@ -1,0 +1,32 @@
+import(graphics)
+import(stats)
+import(utils)
+import(methods)
+
+exportClasses(SimPop)
+exportMethods(
+  getHaplotype,
+  getGenotype,
+  getNumInd,
+  getNumFam,
+  getNumSib,
+  getCrosstype,
+  getLineage,
+  getPloidy,
+  getNumMar,
+  getXoFreq,
+  getChrLen,
+  getPhysPos,
+  getGenPos,
+  getReads,
+  getID,
+  addFounder,
+  getProgenies,
+  selectSamples,
+  simRead,
+  writeVCF
+)
+
+export(
+  makeSimPop
+)
